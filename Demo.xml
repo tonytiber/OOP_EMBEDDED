@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdtprojectproperties>
+  <section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.IncludePaths">
+    <language id="org.eclipse.cdt.core.assembly" name="s,S">
+      <includepath workspace_path="true">/${ProjName}/ASW/BUTTON/Inc</includepath>
+      <includepath workspace_path="true">/${ProjName}/ASW/Core/Inc</includepath>
+      <includepath workspace_path="true">/${ProjName}/BSW/GPIO/Src</includepath>
+      <includepath workspace_path="true">/${ProjName}/BSW/TIMER/Inc</includepath>
+      <includepath workspace_path="true">/${ProjName}/BSW/TIMER/Src</includepath>
+      <includepath workspace_path="true">/${ProjName}/ASW/PWM/Inc</includepath>
+      <includepath workspace_path="true">/${ProjName}/ASW/PWM/Src</includepath>
+      <includepath workspace_path="true">/${ProjName}/ASW/BUTTON/Src</includepath>
+      <includepath workspace_path="true">/${ProjName}/ASW/DHT11/Inc</includepath>
+      <includepath workspace_path="true">/${ProjName}/ASW/DHT11/Src</includepath>
+      <includepath workspace_path="true">/${ProjName}/RTE//Inc</includepath>
+      <includepath workspace_path="true">/${ProjName}/RTE//Src</includepath>
+      <includepath workspace_path="true">/${ProjName}/BSW/Drivers/CMSIS/Include</includepath>
+      <includepath workspace_path="true">/${ProjName}/BSW/GPIO/Inc</includepath>
+      <includepath workspace_path="true">/${ProjName}/ASW/Core/Src</includepath>
+      <includepath workspace_path="true">/${ProjName}/ASW/LED/Inc</includepath>
+      <includepath workspace_path="true">/${ProjName}/ASW/LED/Src</includepath>
+      <includepath workspace_path="true">/${ProjName}/BSW/Core/Src</includepath>
+      <includepath workspace_path="true">/${ProjName}/BSW/Core/Inc</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/ASW/BUTTON/Inc</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/ASW/Core/Inc</includepath>
+    </language>
+    <language id="org.eclipse.cdt.core.gcc" name="C Source File">
+      <includepath workspace_path="true">/${ProjName}/ASW/BUTTON/Inc</includepath>
+      <includepath workspace_path="true">/${ProjName}/ASW/BUTTON/Src</includepath>
+      <includepath workspace_path="true">/${ProjName}/ASW/Core/Inc</includepath>
+      <includepath workspace_path="true">/${ProjName}/ASW/Core/Src</includepath>
+      <includepath workspace_path="true">/${ProjName}/ASW/DHT11/Inc</includepath>
+      <includepath workspace_path="true">/${ProjName}/ASW/DHT11/Src</includepath>
+      <includepath workspace_path="true">/${ProjName}/ASW/LED/Inc</includepath>
+      <includepath workspace_path="true">/${ProjName}/ASW/LED/Src</includepath>
+      <includepath workspace_path="true">/${ProjName}/BSW/GPIO/Inc</includepath>
+      <includepath workspace_path="true">/${ProjName}/BSW/GPIO/Src</includepath>
+      <includepath workspace_path="true">/${ProjName}/BSW/PWM/Inc</includepath>
+      <includepath workspace_path="true">/${ProjName}/BSW/PWM/Src</includepath>
+      <includepath workspace_path="true">/${ProjName}/BSW/TIMER/Inc</includepath>
+      <includepath workspace_path="true">/${ProjName}/BSW/TIMER/Src</includepath>
+      <includepath workspace_path="true">/${ProjName}/RTE/Inc</includepath>
+      <includepath workspace_path="true">/${ProjName}/RTE/Src</includepath>
+      <includepath workspace_path="true">/${ProjName}/RTE//Inc</includepath>
+      <includepath workspace_path="true">/${ProjName}/RTE//Src</includepath>
+      <includepath workspace_path="true">/${ProjName}/BSW/Drivers/STM32F4xx_HAL_Driver/Inc</includepath>
+      <includepath workspace_path="true">/${ProjName}/BSW/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy</includepath>
+      <includepath workspace_path="true">/${ProjName}/BSW/Core/Inc</includepath>
+      <includepath workspace_path="true">/${ProjName}/BSW/Drivers/CMSIS/Device/ST/STM32F4xx/Include</includepath>
+      <includepath workspace_path="true">/${ProjName}/BSW/Drivers/CMSIS/Include</includepath>
+      <includepath workspace_path="true">/${ProjName}/BSW/Core/Src</includepath>
+      <includepath>Core/Inc</includepath>
+      <includepath>Drivers/STM32F4xx_HAL_Driver/Inc</includepath>
+      <includepath>Drivers/STM32F4xx_HAL_Driver/Inc/Legacy</includepath>
+      <includepath>Drivers/CMSIS/Device/ST/STM32F4xx/Include</includepath>
+      <includepath>Drivers/CMSIS/Include</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/ASW/BUTTON/Inc</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/ASW/BUTTON/Src</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/ASW/Core/Inc</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/ASW/Core/Src</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/ASW/DHT11/Inc</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/ASW/DHT11/Src</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/ASW/LED/Inc</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/ASW/LED/Src</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/BSW/GPIO/Inc</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/BSW/GPIO/Src</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/BSW/PWM/Inc</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/BSW/PWM/Src</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/BSW/TIMER/Inc</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/BSW/TIMER/Src</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/RTE/Inc</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/RTE/Src</includepath>
+    </language>
+    <language id="org.eclipse.cdt.core.g++" name="C++ Source File">
+      <includepath workspace_path="true">/${ProjName}/ASW/BUTTON/Inc</includepath>
+      <includepath workspace_path="true">/${ProjName}/ASW/BUTTON/Src</includepath>
+      <includepath workspace_path="true">/${ProjName}/ASW/Core/Inc</includepath>
+      <includepath workspace_path="true">/${ProjName}/ASW/Core/Src</includepath>
+      <includepath workspace_path="true">/${ProjName}/ASW/DHT11/Inc</includepath>
+      <includepath workspace_path="true">/${ProjName}/ASW/DHT11/Src</includepath>
+      <includepath workspace_path="true">/${ProjName}/ASW/LED/Inc</includepath>
+      <includepath workspace_path="true">/${ProjName}/ASW/LED/Src</includepath>
+      <includepath workspace_path="true">/${ProjName}/BSW/GPIO/Inc</includepath>
+      <includepath workspace_path="true">/${ProjName}/BSW/GPIO/Src</includepath>
+      <includepath workspace_path="true">/${ProjName}/BSW/PWM/Inc</includepath>
+      <includepath workspace_path="true">/${ProjName}/BSW/PWM/Src</includepath>
+      <includepath workspace_path="true">/${ProjName}/BSW/TIMER/Inc</includepath>
+      <includepath workspace_path="true">/${ProjName}/BSW/TIMER/Src</includepath>
+      <includepath workspace_path="true">/${ProjName}/RTE/Inc</includepath>
+      <includepath workspace_path="true">/${ProjName}/RTE/Src</includepath>
+      <includepath workspace_path="true">/${ProjName}/RTE//Inc</includepath>
+      <includepath workspace_path="true">/${ProjName}/RTE//Src</includepath>
+      <includepath workspace_path="true">/${ProjName}/BSW/Drivers/CMSIS/Include</includepath>
+      <includepath workspace_path="true">/${ProjName}/BSW/Core/Inc</includepath>
+      <includepath workspace_path="true">/${ProjName}/BSW/Drivers/CMSIS/Device/ST/STM32F4xx/Include</includepath>
+      <includepath workspace_path="true">/${ProjName}/BSW/Drivers/STM32F4xx_HAL_Driver/Inc</includepath>
+      <includepath workspace_path="true">/${ProjName}/BSW/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy</includepath>
+      <includepath workspace_path="true">/${ProjName}/BSW/Core/Src</includepath>
+      <includepath>Core/Inc</includepath>
+      <includepath>Drivers/STM32F4xx_HAL_Driver/Inc</includepath>
+      <includepath>Drivers/STM32F4xx_HAL_Driver/Inc/Legacy</includepath>
+      <includepath>Drivers/CMSIS/Device/ST/STM32F4xx/Include</includepath>
+      <includepath>Drivers/CMSIS/Include</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/ASW/BUTTON/Inc</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/ASW/BUTTON/Src</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/ASW/Core/Inc</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/ASW/Core/Src</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/ASW/DHT11/Inc</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/ASW/DHT11/Src</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/ASW/LED/Inc</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/ASW/LED/Src</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/BSW/GPIO/Inc</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/BSW/GPIO/Src</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/BSW/PWM/Inc</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/BSW/PWM/Src</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/BSW/TIMER/Inc</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/BSW/TIMER/Src</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/RTE/Inc</includepath>
+      <includepath>E:/Udemy/CubeIDE/TLD_OOP/RTE/Src</includepath>
+    </language>
+    <language name="Object File"/>
+  </section>
+  <section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.Macros">
+    <language id="org.eclipse.cdt.core.assembly" name="s,S">
+      <macro>
+        <name>DEBUG</name>
+        <value/>
+      </macro>
+    </language>
+    <language id="org.eclipse.cdt.core.gcc" name="C Source File">
+      <macro>
+        <name>DEBUG</name>
+        <value/>
+      </macro>
+      <macro>
+        <name>USE_HAL_DRIVER</name>
+        <value/>
+      </macro>
+      <macro>
+        <name>STM32F446xx</name>
+        <value/>
+      </macro>
+    </language>
+    <language id="org.eclipse.cdt.core.g++" name="C++ Source File">
+      <macro>
+        <name>DEBUG</name>
+        <value/>
+      </macro>
+      <macro>
+        <name>USE_HAL_DRIVER</name>
+        <value/>
+      </macro>
+      <macro>
+        <name>STM32F446xx</name>
+        <value/>
+      </macro>
+    </language>
+    <language name="Object File"/>
+  </section>
+</cdtprojectproperties>
