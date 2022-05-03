@@ -14,6 +14,7 @@ extern "C" {
 #include "DHT11.h"
 #include "PWM.h"
 #include "BSW_GPIO.h"
+#include <STEPProxy.h>
 
 
 extern GPIO_PinState *RTE_LED1;

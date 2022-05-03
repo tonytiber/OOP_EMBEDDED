@@ -1,11 +1,10 @@
 #include "RTE.h"
+
 GPIO_PinState *RTE_LED1;
 GPIO_PinState *RTE_LED2;
 
 uint8_t *RTE_BUTTON1;
 uint8_t *PWM_Val1;
-
-
 
 void RTE_LEDWrite_RTE_LED1(uint8_t value)
 {
@@ -50,7 +49,8 @@ uint8_t RTE_BUTTONRead_RTE_BUTTON1()
 }
 
 
-void RTE_PWMWrite_PWM_Val1(uint8_t value){
+void RTE_PWMWrite_PWM_Val1(uint8_t value)
+{
 	uint8_t temp = value;
 	PWM_Val1 = &temp;
 	PWM_WriteValue(&htim2, TIM_CHANNEL_1,*PWM_Val1);
