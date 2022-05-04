@@ -11,19 +11,24 @@
 class STEPProxy
 {
 	private:
+		//attributes
 		STEPData STEPData;
 	public:
-	//attributes
+		//attributes
 		void (*RTE_STEP_WRITE_VALUE)(uint8_t); // funtion pointer //attribute of this class
-
-	//method
+		void (*RTE_DIR_WRITE_VALUE)(uint8_t);
+		//method
 		STEPProxy();
 		virtual ~STEPProxy();
+
+//		void STEPProxy_Set_STEP_Port();
+//		void STEPProxy_Set_DIR_Port();
 
 		void STEPProxy_Init();
 		void STEPProxy_Cleanup();
 
-		uint8_t STEPProxy_accessSTEPDirection();
+		STEP_DIR STEPProxy_accessSTEPDirection();
+
 		uint8_t STEPProxy_accessSTEPSpeed();
 		uint8_t STEPProxy_aceessSTEPState();
 
@@ -47,7 +52,7 @@ class STEPProxy
 		void STEPProxy_initialize();
 
 		/* update the speed and direction of the motor together */
-		void STEPProxy_writeSTEPSpeed(const uint8_t direction, uint8_t speed);
+		void STEPProxy_writeSTEPSpeed(const STEP_DIR direction, uint8_t speed);
 };
 
 

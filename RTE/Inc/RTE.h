@@ -10,12 +10,18 @@
 
 
 extern GPIO_PinState *RTE_LED1;
+
+extern GPIO_PinState *RTE_DIR1;
+
 extern uint8_t *RTE_BUTTON1;
+
 extern uint8_t *PWM_Val1;
 
+void RTE_HW_Init();
 
 void RTE_LEDWrite_RTE_LED1(uint8_t value);
-void RTE_LEDWrite_RTE_LED2(uint8_t value);
+
+void RTE_LEDWrite_RTE_DIR1(uint8_t value);
 
 void RTE_PWMWrite_PWM_Val1(uint8_t value);
 
