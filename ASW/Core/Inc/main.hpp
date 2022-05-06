@@ -15,6 +15,7 @@ extern "C" {
 #include "PWM.h"
 #include "BSW_GPIO.h"
 #include <STEPProxy.h>
+#include "RotatingArmJoint.h"
 
 
 extern GPIO_PinState *RTE_LED1;

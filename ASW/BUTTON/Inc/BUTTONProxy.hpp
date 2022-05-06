@@ -1,10 +1,3 @@
-/*
- * BUTTONProxy.h
- *
- *  Created on: Apr 10, 2022
- *      Author: Lenovo
- */
-
 #ifndef BUTTONPROXY_H_
 #define BUTTONPROXY_H_
 

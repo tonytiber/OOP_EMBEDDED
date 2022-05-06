@@ -8,17 +8,18 @@ void STEPProxy::STEPProxy_Init()
 
 void STEPProxy::STEPProxy_Cleanup()
 {
-	this->STEPProxy_writeSTEPSpeed(STEP_DIR_STOP, 0);
+	this->STEPProxy_writeSTEPangle(0);
 }
 
-STEP_DIR STEPProxy::STEPProxy_accessSTEPDirection()
-{
-	return STEPData.STEP_direction;
-}
+//STEP_DIR
+//STEPProxy::STEPProxy_accessSTEPDirection()
+//{
+//	return STEPData.STEP_direction;
+//}
 
-uint8_t STEPProxy::STEPProxy_accessSTEPSpeed()
+char STEPProxy::STEPProxy_accessSTEPangle()
 {
-	return STEPData.STEP_speed;
+	return STEPData.STEP_angle;
 }
 
 uint8_t STEPProxy::STEPProxy_aceessSTEPState()
@@ -44,9 +45,9 @@ void STEPProxy::STEPProxy_configure(uint8_t length, uint8_t *location)
 void STEPProxy::STEPProxy_disable()
 {
 	STEPData.STEP_on_off = STEP_OFF;
-	STEPData.STEP_direction = STEP_DIR_STOP;
-	STEPData.STEP_speed = 0;
-	this->STEPProxy_writeSTEPSpeed(STEP_DIR_STOP, STEPData.STEP_speed);
+	//STEPData.STEP_direction = STEP_DIR_STOP;
+	STEPData.STEP_angle = 0;
+	this->STEPProxy_writeSTEPangle(STEPData.STEP_angle);
 }
 
 /* Start up the hardware but leave all other settings of the */
@@ -63,11 +64,11 @@ void STEPProxy::STEPProxy_initialize()
 
 }
 
-/* update the speed and direction of the STEP together */
-void STEPProxy::STEPProxy_writeSTEPSpeed(const STEP_DIR direction, uint8_t speed)
+/* update the angle and direction of the STEP together */
+void STEPProxy::STEPProxy_writeSTEPangle(char angle)
 {
-	this->RTE_DIR_WRITE_VALUE(direction);
-	this->RTE_STEP_WRITE_VALUE(speed);
+	//this->RTE_DIR_WRITE_VALUE(direction);
+	this->RTE_STEP_WRITE_VALUE(angle);
 }
 
 STEPProxy::STEPProxy()

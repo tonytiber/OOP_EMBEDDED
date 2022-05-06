@@ -27,9 +27,9 @@ class STEPProxy
 		void STEPProxy_Init();
 		void STEPProxy_Cleanup();
 
-		STEP_DIR STEPProxy_accessSTEPDirection();
+		//STEP_DIR STEPProxy_accessSTEPDirection();
 
-		uint8_t STEPProxy_accessSTEPSpeed();
+		char STEPProxy_accessSTEPangle();
 		uint8_t STEPProxy_aceessSTEPState();
 
 		/* keep all settings the same but clear error bits */
@@ -51,8 +51,8 @@ class STEPProxy
 		/* turn on the hardware to a known default state. */
 		void STEPProxy_initialize();
 
-		/* update the speed and direction of the motor together */
-		void STEPProxy_writeSTEPSpeed(const STEP_DIR direction, uint8_t speed);
+		/* update the angle and direction of the motor together */
+		void STEPProxy_writeSTEPangle(char angle);
 };
 
 
